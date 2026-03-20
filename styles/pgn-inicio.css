@@ -1,0 +1,36 @@
+.inicio1{
+background-color: rgba(255, 255, 255, 0.918);
+align-items: center;
+display: flex;
+justify-content: center;
+position: relative;
+left: 1775px;
+width:60px;
+height: 35px;
+top: -2px;
+border-radius:15px ;
+}
+footer{
+  background-color: #333;
+    color: white;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 99%; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    padding: 15px;  
+}
+.Historia1{
+    background-color: rgba(255, 255, 255, 0.918);
+align-items: center;
+display: flex;
+justify-content: center;
+position: relative;
+left: 1665px;
+width:85px;
+height: 35px;
+top: -37px;
+border-radius:15px ;
+}
