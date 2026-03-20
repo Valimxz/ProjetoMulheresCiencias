@@ -1,0 +1,149 @@
+img{
+    border-radius: 15%;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+h3{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    margin-top: -100px;
+}
+
+footer{
+  background-color: #333;
+    color: white;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 99%; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    padding: 15px;  
+}
+
+.button1{
+border-radius: 6px;
+border: 0px;
+height: 60px;
+width: 20%;
+position: relative;
+left: 450px;
+top: 10px;
+font-size: 17px;
+color: rgb(255, 255, 255);
+background-color:#013cffa8;
+}
+
+.button2{
+border-radius: 6px;
+border: 0px;
+height: 60px;
+width: 20%;
+position: relative;
+left: 700px;
+top: 10px;
+font-size: 17px;
+color: rgb(255, 255, 255);
+background-color: #013cffa8;
+}
+
+.info-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  position: relative;
+  top: 300px;
+  margin-bottom: 50px;
+}
+
+.info{
+  border-radius: 12px;
+  background-color: rgba(169, 169, 169, 0.664);
+  height: 100px;
+  width: 400px;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  left: 20px;
+}
+
+.info2{
+  background-color: rgba(169, 169, 169, 0.664);
+  width: 400px;
+  height: 100px;
+  border-radius: 12px;
+  display: flex;
+  font-size: 17px;
+  justify-content:left;
+  align-items: center;
+  text-align: center;
+position: relative;
+left: 170px;
+}
+
+.info3{
+  background-color: rgba(169, 169, 169, 0.664);
+  width: 400px;
+  height: 100px;
+  font-size: 17px;
+  border-radius: 12px;
+  display: flex;
+  justify-content:left;
+  align-items: center;
+  text-align: center;
+position: relative;
+left:300px;
+}
+.inicio{
+background-color: rgba(255, 255, 255, 0.918);
+align-items: center;
+display: flex;
+justify-content: center;
+text-align: center;
+position: relative;
+left:330px ;
+width:60px;
+height: 35px;
+margin-top: -610px;
+border-radius:15px ;
+  }
+
+.Historia{
+background-color: rgba(255, 255, 255, 0.918);
+align-items: center;
+justify-content: center;
+text-align: center;
+display: flex;
+position: relative;
+left:150px ;
+width:85px;
+height: 35px;
+margin-top: -610px;
+border-radius:15px ;
+  }
+
+.legado{
+background-color: rgba(255, 255, 255, 0.918);
+align-items: center;
+justify-content: center;
+text-align: center;
+display: flex;
+position: relative;
+left:-50px ;
+width:85px;
+height: 35px;
+margin-top: -610px;
+border-radius:15px ;
+  }
