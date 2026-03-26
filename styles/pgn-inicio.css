@@ -28,9 +28,27 @@ align-items: center;
 display: flex;
 justify-content: center;
 position: relative;
-left: 1665px;
+left: 1675px;
 width:85px;
 height: 35px;
 top: -37px;
 border-radius:15px ;
+}
+
+.legado1{
+   background-color: rgba(255, 255, 255, 0.918);
+align-items: center;
+display: flex;
+justify-content: center;
+position: relative;
+left: 1576px;
+width:85px;
+height: 35px;
+top: -71px;
+border-radius:15px ;
+}
+
+.titulo1{
+  display: flex;
+justify-content: center;
 }
