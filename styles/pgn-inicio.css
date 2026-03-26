@@ -52,3 +52,28 @@ border-radius:15px ;
   display: flex;
 justify-content: center;
 }
+.tl1{
+display: flex;
+position: relative;
+left: 500px;
+}
+
+.dev1{
+  display: flex;
+position: relative;
+left: 500px;
+width: 800px;
+font-size: 25px;
+}
+
+.borda{
+  background-color: aqua;
+  width: 5px;
+}
+
+.img1{
+display: flex;
+position: relative;
+left: 500px;
+height: 100px ;
+}
