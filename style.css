@@ -1,0 +1,26 @@
+h1{
+color: blue;
+}
+
+.destaque{
+color: #00ff0d;
+background-color: rgb(255, 251, 0);
+}
+
+.itemdois{
+    color: #00ff0d;
+    background-color: rgba(11, 131, 230, 0.466);
+}
+
+.bloco-dois p{
+    background-color: rgb(209, 207, 207);
+}
+
+.item3 {
+    color: blue;
+}
+
+#especial{
+    font-family: italic;
+    border-left:solid green
+}

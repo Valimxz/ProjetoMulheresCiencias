@@ -1,0 +1,14 @@
+.card{
+    width: 200px;
+    height: 300px;
+    border-radius: 10%;
+    border-style: double;
+    border-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+}
+
+.img{
+ width: 50px;
+ height: 100px;
+}
