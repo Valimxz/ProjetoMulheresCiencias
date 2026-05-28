@@ -1,14 +1,140 @@
-.card{
-    width: 200px;
-    height: 300px;
-    border-radius: 10%;
-    border-style: double;
-    border-color: aquamarine;
-    display: flex;
-    flex-direction: column;
+/* Configurações Globais Simples */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
-.img{
- width: 50px;
- height: 100px;
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Estilização do Menu (Header) */
+.header-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #0d0d0d;
+    border-bottom: 2px solid #ffd700;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2vh;
+    font-size: 2vh;
+    font-weight: 600;
+}
+.logo img {
+    border-radius: 8px;
+    height: 5vh;
+}
+
+.img-logo{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    border: 2px solid #ffd700;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2vh;
+}
+
+.logo strong {
+    color: #ffd700;
+    border: 2px solid #ffd700;
+    padding: 2px 5px;
+    margin-right: 5px;
+}
+
+.nav-principal ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-principal a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.nav-principal a:hover {
+    color: #ffd700;
+}
+
+/* Seção Principal (Hero com Imagem de Fundo Escurecida) */
+.hero-section {
+    position: relative;
+    height: calc(100vh - 68px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* Substitua pelo caminho real da sua foto de fundo */
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('./img/Captura\ de\ tela\ 2026-05-08\ 111542.png') no-repeat center center/cover;
+    padding: 0 20px;
+}
+
+.hero-conteudo h1 {
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.destaque-amarelo {
+    font-size: 2.3rem;
+    color: #ffd700;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.subtitulo {
+    font-size: 1rem;
+    color: #b3b3b3;
+    margin-bottom: 40px;
+}
+
+/* Botões do Centro */
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn-amarelo,
+.btn-transparente {
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: transform 0.2s;
+}
+
+.btn-amarelo {
+    background-color: #ffd700;
+    color: #000;
+}
+
+.btn-transparente {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #ffd700;
+}
+
+.btn-amarelo:hover,
+.btn-transparente:hover {
+    transform: scale(1.05);
 }
